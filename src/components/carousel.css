@@ -1,0 +1,21 @@
+/* .carousel-inner img {
+    
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-item.active img {
+    opacity: 1;
+  }
+  
+  .carousel-item img {
+    opacity: 0;
+  } */
+
+  /* #0d58b9 - top blue
+  #3075c5 - center blue
+  #6ba6db - bottom 
+  #c40400 - red*/
+
+.carousel-item img{
+  width: 87%;
+}

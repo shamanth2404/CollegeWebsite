@@ -1,0 +1,137 @@
+h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    
+    .icon{
+        margin-right: 5px;
+    }
+}
+
+.news{
+    padding: 0 15px;
+    margin: 24px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(128,128,128,0.15) ;
+}
+
+.news-top{
+    display: flex;
+    align-items: start;
+    justify-content: center;    
+    font-size: 14px;
+    line-height: 1.2;   
+    margin: 10px 0 0 0; 
+}
+
+.news-top p{
+    font-weight: 600;
+
+    .icon{
+        margin-left: 5px;
+        font-size: 30px;
+        color: #0088cc;
+        animation: change 1s linear infinite;
+    }
+}
+
+.date-month{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45px;
+    margin-right: 10px;    
+}
+
+.date{
+    padding: 12px 10px;
+    background-color: #f7f7f7;
+    color: #0088cc;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.month{
+    color: #f7f7f7;
+    background-color: #0088cc;
+    width: 100%;    
+    height: 22px;
+    font-size: 12px;
+    padding: 3px 10px;
+}
+
+a{
+    color: #0088cc;    
+    font-size: 16px;
+    .icon{
+        margin-left: 5px;
+    }
+}
+
+@keyframes change {
+    0%{
+        color: #0088cc;
+    }
+    50%{
+        color: #c40400;
+    }
+    100%{
+        color: #0088cc;
+    }
+    
+}
+
+.top-tab{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;    
+}
+
+.notification-tab{
+    padding: 8px 16px;
+    color: #0088cc;
+    border-top: 3.2px solid #0088cc;
+    border-right: 1px solid rgb(128,128,128,0.15);
+    border-left: 1px solid rgb(128,128,128,0.15);
+    border-radius: 5px 5px 0 0;
+    margin-right: 1px;
+    font-size: 14px;
+}
+
+.active{
+    color: #0088cc;
+    border-top: 3.2px solid #0088cc;
+}
+
+.content-tab{
+    border: 1px solid rgb(128,128,128,0.15);
+    border-radius: 2px;
+    padding: 15px 10px;
+}
+
+.content{
+    display: flex;
+    align-items: start;
+    font-size: 14px;
+    border-bottom:1px solid rgb(128,128,128,0.15) ;
+    margin-top: 10px;
+        
+    .icon{
+        color: #c40400;
+        margin-right: 2px;
+    }    
+}
+
+.content p{
+    padding: 0 0 9px 10px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.content span{
+    color: #0088cc;
+}

@@ -1,0 +1,41 @@
+.head{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;    
+}
+
+.head-right-top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+
+    .btn{
+        font-size: small;        
+    }
+}
+
+.head-right-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .item{
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        
+
+        .icon{
+            margin-right: 2px;
+        
+        }
+    }
+
+}
+
+.btn-primary{
+    background-color: #08c;
+}
